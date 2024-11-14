@@ -1,0 +1,20 @@
+.hero {
+	width: 100%;
+	height: 40vh;
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/168/900/28/rick-and-morty-vector-graphics-car-rainbows-wallpaper-preview.jpg');
+
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 0.75em 2em;
+}
+
+@media screen and (min-width: 1024px) {
+	.hero {
+		height: 50vh;
+	}
+}
